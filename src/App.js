@@ -112,6 +112,7 @@ function Item({ item, onDeleteItem, onToggleItem }) {
 }
 
 function Stats({ items }) {
+  // Early return
   if (!items.length)
     return (
       <p className="stats">
@@ -126,7 +127,7 @@ function Stats({ items }) {
     <footer className="stats">
       <em>
         {percentagePacked === 100
-          ? "You have everything ready to go ✈️"
+          ? "You have everything! Ready to go ✈️"
           : `💼 You have ${numItems} items on your list, and you already packed ${numPacked} (${percentagePacked}%)`}
       </em>
     </footer>
