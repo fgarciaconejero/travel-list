@@ -3,4 +3,6 @@ fileignoreconfig:
     checksum: aee68792b847d0b5a333e7fc1db13e0aed289af06b6f9170fc6d7fba2d8e3db5
   - filename: src/App.js
     checksum: 99900ee9958523e574095d111c63098a1ab747bf21994cf26d02138254b5effb
+  - filename: src/PackingList.js
+    checksum: a2a8edc8c089d23a2f808114198b932fc2756af47758a90e391b697bf9e342dd
 version: ""
